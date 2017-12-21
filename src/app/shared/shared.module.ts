@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 import {
@@ -36,6 +36,7 @@ import { ReuseStrategyObservable } from './router/reuse-strategy-observable';
   imports: [
     CommonModule,
     ReactiveFormsModule,
+    FormsModule,
     MatAutocompleteModule,
     MatButtonModule,
     MatButtonToggleModule,
@@ -75,9 +76,7 @@ import { ReuseStrategyObservable } from './router/reuse-strategy-observable';
   ],
   exports: [
     CommonModule,
-    ReactiveFormsModule,
-    CommonModule,
-    ReactiveFormsModule,
+    FormsModule,
     MatAutocompleteModule,
     MatButtonModule,
     MatButtonToggleModule,
