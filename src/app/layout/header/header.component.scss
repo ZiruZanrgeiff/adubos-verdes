@@ -1,0 +1,13 @@
+.logged-user {
+  max-height: 40px;
+}
+.avatar-user {
+  background: url("/assets/images/avatar-user.png") no-repeat;
+  background-size: cover;
+  border: 2px solid #3f51b5;
+  padding: 1px;
+}
+
+mat-toolbar {
+  justify-content: space-between;
+}

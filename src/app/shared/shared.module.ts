@@ -1,6 +1,8 @@
 import { ModuleWithProviders, NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
 
 
 import {
@@ -36,6 +38,7 @@ import { ReuseStrategyObservable } from './router/reuse-strategy-observable';
   imports: [
     CommonModule,
     ReactiveFormsModule,
+    RouterModule,
     FormsModule,
     MatAutocompleteModule,
     MatButtonModule,
@@ -108,7 +111,8 @@ import { ReuseStrategyObservable } from './router/reuse-strategy-observable';
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    RouterModule
   ]
 })
 
