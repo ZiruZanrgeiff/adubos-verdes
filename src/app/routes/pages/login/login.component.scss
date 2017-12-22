@@ -1,0 +1,50 @@
+.warapp-content {
+  background: url("http://www.ventadearroz-quevedo-ecuador.com/images/Venta%20de%20arroz%20Quevedo%20%287%29.jpg") no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  .align-self-center {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
+
+.av-logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.form-group.av-keep-loged-in.av-forget-password {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  .mat-checkbox-layout {
+    margin: 0;
+  }
+}
+
+mat-card {
+  margin-bottom: 15px;
+}
+
+.av-login-buttons {
+  .av-loggin-button {
+    background-color: #43A047;
+  }
+
+  .av-facebook-button {
+    background-color: #284277;
+  }
+
+  .av-facebook-button, .av-loggin-button {
+    color: #FFF;
+    width: 100%;
+    padding: 8px;
+    border-radius: 30px;
+  }
+}
+
