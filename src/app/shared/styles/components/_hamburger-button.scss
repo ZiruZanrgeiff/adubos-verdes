@@ -1,5 +1,5 @@
 // linhas dos ícones
-.hamburger .line{
+.hamburger .hamburger-line{
   width: 18px;
   height: 2px;
   background-color: #ecf0f1;
@@ -26,24 +26,24 @@
 }
 
 // Tamanho das linhas do hamburger quando ativado (primeira e última)
-#hamburger-3.is-active .line:nth-child(1),
-#hamburger-3.is-active .line:nth-child(3){
+#hamburger-3.is-active .hamburger-line:nth-child(1),
+#hamburger-3.is-active .hamburger-line:nth-child(3){
   width: 8px;
 }
 
-#hamburger-3.is-active .line {
+#hamburger-3.is-active .hamburger-line {
   margin-bottom: 1px;
 }
 
 // Rotação para formar uma seta
-#hamburger-3.is-active .line:nth-child(1){
+#hamburger-3.is-active .hamburger-line:nth-child(1){
   -webkit-transform: translateX(-0px) rotate(-45deg);
   -ms-transform: translateX(0px) rotate(-45deg);
   -o-transform: translateX(0px) rotate(-45deg);
   transform: translateX(0px) rotate(-45deg);
 }
 
-#hamburger-3.is-active .line:nth-child(3){
+#hamburger-3.is-active .hamburger-line:nth-child(3){
   -webkit-transform: translateX(0px) rotate(45deg);
   -ms-transform: translateX(0px) rotate(45deg);
   -o-transform: translateX(0px) rotate(45deg);
