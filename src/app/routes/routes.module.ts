@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 
-import { RoutesRoutingModule } from './routes-routing.module';
+import { routes } from './routes';
 import { SharedModule } from '../shared/shared.module';
 import { PagesModule } from './pages/pages.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
     SharedModule,
-    RoutesRoutingModule,
+    RouterModule.forRoot(routes),
     PagesModule
   ],
   exports: [
-    RoutesRoutingModule
+    RouterModule
   ]
 })
 export class RoutesModule { }
